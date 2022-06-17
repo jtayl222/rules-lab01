@@ -12,6 +12,6 @@ then
   $p.setAdult(true);
 end
 
-query "adult"
-  $p: /persons;
+query Adult
+  $p: /persons
 end

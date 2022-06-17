@@ -5,14 +5,13 @@
   "type": "RulesRequest",
   "subject": "TheSubject",
   "kogitoruleunitid": "org.acme.PersonUnit",
-  "kogitoruleunitquery": "PersonUnit",
+  "kogitoruleunitquery": "Adult",
   "data": {
     "persons": [
       {
         "name": "string",
-        "age": 24,
-        "adult": true
+        "age": 24
       }
     ]
   }
-}/
+}
